@@ -1,0 +1,25 @@
+1. What is the lambda operator?
+        ->
+2. What is a functional interface?
+        It is an interface which contains only one abstract method
+
+3. How do functional interfaces and lambda expressions relate?
+        lambda expressions used to implement abstract method of functional interfaces
+
+4. What are the two general types of lambda expressions?
+        > single
+        > block
+
+5. Show a lambda expression that returns true if a number is between 10 and 20, inclusive.
+        (userInput) -> (userInput >= 10 && userInput <=20) ? true : false;
+
+9. Using the program shown in Try This 14-1, create a lambda expression that removes
+    all spaces from a string and returns the result. Demonstrate this method by passing it to
+    changeStr( ).
+
+10. Can a lambda expression use a local variable? If so, what constraint must be met?
+        yes, can. Local variable should be final or effectively final.
+
+11. If a lambda expression throws a checked exception, the abstract method in the functional
+interface must have a throws clause that includes that exception. True or False?
+        true
